@@ -1,0 +1,174 @@
+@import "tailwindcss";
+
+:root {
+    --color-primary: #B88E2F;
+}
+
+.puraflex {
+    /* background: url(./images11/bgg.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+
+.btn120 {
+    background: var(--color-primary);
+    padding: 4px 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 25px 72px 25px 72px;
+}
+
+.btn120:hover {
+    background: white;
+    color: #B88E2F;
+}
+
+.headerr {
+    line-height: 65px;
+    padding-bottom: 17px;
+}
+
+/* responsible */
+
+
+.First {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: url(./images11/bgg.jpg);
+    background-repeat: no-repeat;
+}
+
+.firstdiv {
+    background-color: #FFF3E3;
+    width: 100%;
+    max-width: 643px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.headerr {
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #B88E2F;
+}
+
+.btn120 {
+    background-color: #B88E2F;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .First {
+        justify-content: flex-end;
+        padding-right: 60px;
+    }
+
+    .headerr {
+        font-size: 52px;
+    }
+
+    .btn120 {
+        width: auto;
+    }
+
+    .firstdiv {
+        padding: 60px;
+    }
+}
+
+.imageee2 {
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+
+.imageee2 img {
+    transition: all ease 0.5s;
+    height: 100%;
+    width: 100%;
+}
+
+.imageee2:hover img {
+    transform: scale(1.2);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.seconddd {
+    width: 100%;
+}
+
+
+.textt2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.textt2 h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.imagess {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.bbg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.imageee2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.pera p {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+    .bbg {
+        width: calc(50% - 30px);
+    }
+}
+
+/* Desktops (3 columns) */
+@media (min-width: 1024px) {
+    .bbg {
+        width: calc(33.33% - 30px);
+    }
+
+    .textt2 {
+        padding-bottom: 62px;
+    }
+}
